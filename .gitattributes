@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Vendored upstream skill content must stay byte-identical: no EOL conversion,
+# no text normalization (tests/integrity.test.mjs pins their sha256).
+skills/moss-image-prompt-enhancer/** -text
