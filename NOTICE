@@ -1,0 +1,25 @@
+dsh-moss-image-prompt-enhancer
+Copyright (c) 2026 tw2ni9-arisu
+
+This package bundles the "moss-image-prompt-enhancer" agent skill from the
+OpenMOSS/MOSS-Image project:
+
+  Source:   https://github.com/OpenMOSS/MOSS-Image
+  Path:     skills/moss-image-prompt-enhancer
+  Revision: c1355e6b1986dfe8fba3c0455783a05899212342 (2026-10-16)
+  License:  Apache License, Version 2.0 (see LICENSES/Apache-2.0.txt)
+
+The following files are copied verbatim into skills/moss-image-prompt-enhancer/:
+
+  SKILL.md
+  agents/openai.yaml
+  references/layout.md
+  scripts/compile_prompt.py
+  scripts/test_compile_prompt.py
+
+Their sha256 pins are recorded in tests/integrity.test.mjs and verified by the
+test suite. The plugin adds no changes inside those files; DSH-specific runtime
+notes are appended at load time by src/index.mjs, and the python compiler is
+additionally reimplemented in JavaScript (src/compile.mjs) for the native
+moss_compile_prompt tool. The JavaScript port is an independent work licensed
+under the MIT license of this repository.

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "MOSS-Image Prompt Enhancer",
+    "description": "Adds the MOSS-Image prompt-enhancer skill plus a native caption/layout prompt compiler tool."
+  }
+}

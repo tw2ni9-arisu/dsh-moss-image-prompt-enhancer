@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MOSS-Image Prompt Enhancer">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#0f2b25"/>
+  <rect x="11" y="14" width="42" height="30" rx="5" fill="none" stroke="#5ee3b5" stroke-width="3"/>
+  <circle cx="24" cy="26" r="4.5" fill="#5ee3b5"/>
+  <path d="M13 42l11-11 8 8 7-6 12 9" fill="none" stroke="#5ee3b5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M20 52h24" stroke="#5ee3b5" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "MOSS-Image 提示词增强",
+    "description": "加入 MOSS-Image 提示词增强技能，并提供原生的 caption / Layout 提示词编译工具。"
+  }
+}

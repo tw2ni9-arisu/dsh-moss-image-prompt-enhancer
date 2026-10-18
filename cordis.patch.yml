@@ -1,0 +1,6 @@
+# DSH bundle patch for dsh-moss-image-prompt-enhancer.
+# Inserts the plugin row into the profile composition. The package registers
+# the `moss-image-prompt-enhancer` skill provider and the `moss_compile_prompt` tool.
+- insert:
+    - id: moss-image-prompt-enhancer
+      name: 'dsh-moss-image-prompt-enhancer'
