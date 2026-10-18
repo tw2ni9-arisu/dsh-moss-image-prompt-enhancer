@@ -46,5 +46,13 @@
   },
   "scripts": {
     "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tw2ni9-arisu/dsh-moss-image-prompt-enhancer.git"
+  },
+  "homepage": "https://github.com/tw2ni9-arisu/dsh-moss-image-prompt-enhancer#readme",
+  "bugs": {
+    "url": "https://github.com/tw2ni9-arisu/dsh-moss-image-prompt-enhancer/issues"
   }
 }
